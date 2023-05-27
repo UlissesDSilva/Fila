@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\desafio.csproj": {}
+    "C:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\desafio.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\desafio.csproj": {
+    "C:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\desafio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\desafio.csproj",
+        "projectUniqueName": "C:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\desafio.csproj",
         "projectName": "desafio",
-        "projectPath": "c:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\desafio.csproj",
+        "projectPath": "C:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\desafio.csproj",
         "packagesPath": "C:\\Users\\ulisses_queiroz\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\obj\\",
+        "outputPath": "C:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ulisses_queiroz\\AppData\\Roaming\\NuGet\\NuGet.Config",

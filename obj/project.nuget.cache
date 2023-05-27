@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xlNmPlEYH6tmlAIB6NzRU5OKXn1bCniQTZuXdZLoi3F7gYY5X/QI/K8ugcQaN9Z2+xU8C5rp/pZg4x+T8wiSMQ==",
+  "dgSpecHash": "8iY0m5h+++GbJQX/rg1X+k+QvFeeGqt3YldVqRFaRiy5yHP3YgYUVMhhwHVw1+zulXQamFv//CZJF2Bbj8hABg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\desafio.csproj",
+  "projectFilePath": "C:\\Users\\ulisses_queiroz\\Desktop\\estudos\\desafio\\desafio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ulisses_queiroz\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ulisses_queiroz\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
