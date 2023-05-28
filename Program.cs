@@ -1,6 +1,8 @@
 using desafio.Data;
 using Microsoft.EntityFrameworkCore;
 using FluentValidation.AspNetCore;
+using desafio.Repository.IRepository;
+using desafio.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,7 @@ builder.Services.AddDbContext<Context>(opt =>
 
 //AddScoped
 builder.Services.AddScoped<Context>();
+builder.Services.AddScoped<IRepositoryUser, RepositoryUser>();
 builder.Services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Program>());
 
 builder.Services.AddControllers();
