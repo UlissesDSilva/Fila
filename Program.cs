@@ -14,6 +14,7 @@ builder.Services.AddDbContext<Context>(opt =>
 //AddScoped
 builder.Services.AddScoped<Context>();
 builder.Services.AddScoped<IRepositoryUser, RepositoryUser>();
+builder.Services.AddScoped<IRepositoryStatus, RepositoryStatus>();
 builder.Services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Program>());
 
 builder.Services.AddControllers();
