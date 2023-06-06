@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using FluentValidation.AspNetCore;
 using desafio.Repository.IRepository;
 using desafio.Repository;
+using desafio.Services.IServices;
+using desafio.Services;
+using desafio.Consumers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +18,10 @@ builder.Services.AddDbContext<Context>(opt =>
 builder.Services.AddScoped<Context>();
 builder.Services.AddScoped<IRepositoryUser, RepositoryUser>();
 builder.Services.AddScoped<IRepositoryStatus, RepositoryStatus>();
+builder.Services.AddScoped<IRepositorySubscriptions, RepositorySubscription>();
+builder.Services.AddScoped<IRepositoryEventHistory, RepositoryEventHistory>();
+builder.Services.AddScoped<ISubscriptionService, SubscriptionService>();
+builder.Services.AddScoped<SubscriptionConsumer>();
 builder.Services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Program>());
 
 builder.Services.AddControllers();

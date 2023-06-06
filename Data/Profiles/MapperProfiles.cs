@@ -9,6 +9,9 @@ namespace desafio.Data.Profiles
         public MapperProfiles() {
             CreateMap<AddUserRequestModel, User>()
                 .ReverseMap();
+
+            CreateMap<SaveSubscriptionRequestModel, Subscription>()
+                .ReverseMap();
         }
     }
 }

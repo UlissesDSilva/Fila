@@ -20,5 +20,13 @@ namespace desafio.Controllers
             var result = await _repository.GetAllStatus();
             return Ok(result);
         }
+
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<ActionResult> GetStatusById(long id)
+        {
+            var result = await _repository.GetStatusById(id);
+            return Ok(result);
+        }
     }
 }

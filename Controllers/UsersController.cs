@@ -25,8 +25,15 @@ namespace desafio.Controllers
             return Ok(result);
         }
 
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<ActionResult> GetUserById(long id)
+        {
+            var result = await _repositoryUser.GetUserById(id);
+            return Ok(result);
+        }
+
         [HttpPost]
-        [Route("add")]
         public async Task<ActionResult> CreateUser([FromBody] AddUserRequestModel request)
         {
             var result = await _repositoryUser.CreateUser(_mapper.Map<User>(request));
